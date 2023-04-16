@@ -35,6 +35,7 @@ int main(int argc, char* argv[])
     addr.sin_addr.s_addr = inet_addr(argv[1]);
     addr.sin_port = htons(atoi(argv[2]));
     
+    //connect den server
     if (connect(client, (struct sockaddr *)&addr, sizeof(addr)) == -1)
     {
         printf("Connecting failed\n");
