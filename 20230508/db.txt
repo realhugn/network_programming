@@ -1,0 +1,4 @@
+admin admin
+guest nopass
+real 123
+real2 123
