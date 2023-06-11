@@ -1,0 +1,4 @@
+admin admin
+guest nopass
+user1 1
+user2 2
