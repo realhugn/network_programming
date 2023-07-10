@@ -30,7 +30,7 @@ bool join(bool isLogged, char *nickname, int socket)
         return false;
     }
 
-    if (nickname == NULL || strlen(nickname) == 0)
+    if (nickname == NULL  || strlen(nickname) == 0)
     {
         char *error = "201 INVALID NICK NAME\r\n";
         send(socket, error, strlen(error), 0);
